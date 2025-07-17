@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SmartEnergyTrackerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Application created");
 		SpringApplication.run(SmartEnergyTrackerApplication.class, args);
 	}
 
